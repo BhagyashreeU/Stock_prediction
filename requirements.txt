@@ -29,4 +29,4 @@ pandas==1.2.0
 yfinance==0.1.54
 fbprophet==0.2
 pystan==2.19.1.1
-
+Cython==0.22
