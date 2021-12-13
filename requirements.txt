@@ -26,5 +26,5 @@ tensorflow-estimator==2.7.0
 Werkzeug==2.0.2
 wrapt==1.13.3
 pandas==1.2.0
-yfinance
+yfinance==0.1.54
 
