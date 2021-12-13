@@ -74,12 +74,12 @@ app.layout = html.Div(style={'backgroundColor': colors['background'], 'font-fami
 def update_scatter(symbol, n_clicks):
     if n_clicks == 0:
         ticker_data = yf.Ticker('GOOGL')
-        df = ticker_data.history(period='1d', start=datetime(2015, 1, 1), end=datetime.now())
+        df = ticker_data.history(period='1d', start=datetime(2019, 1, 1), end=datetime.now())
 
     else:
         #columns = ['Open', 'High', 'Low', 'Close', 'Volume']
         ticker_data = yf.Ticker(symbol)
-        df = ticker_data.history(period='1d', start=datetime(2015, 1, 1), end=datetime.now())
+        df = ticker_data.history(period='1d', start=datetime(2019, 1, 1), end=datetime.now())
 
     prophet_df = df.copy()
     prophet_df.reset_index(inplace=True)
