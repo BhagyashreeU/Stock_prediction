@@ -1,3 +1,4 @@
+pycurl==7.19.3.1
 Brotli==1.0.9
 cachetools==4.2.4
 click==8.0.3
