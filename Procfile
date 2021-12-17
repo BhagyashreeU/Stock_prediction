@@ -1,1 +1,1 @@
-web: gunicorn app:server
+web: gunicorn stock_forecast: server
