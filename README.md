@@ -16,7 +16,7 @@ Usage Gudelines-
  
  Open CMD in working directory.
  
- Run stock_forecast.py using command "python app.py"
+ Run stock_forecast.py using command "python stock_forecast.py"
  
  Go to the http://127.0.0.1:8050 and test it by entering company ticker symbols.
  
